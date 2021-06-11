@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Dependencias
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Formulario con Regex</title>
+  <meta name="Formulario Regex en JS validaciones Frontend" content="">
+  <meta name="Nicolas Allende" content="">
+
+  <!-- META TAGS MOVILES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:600&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="">
+
+<!-- Bloque Nombre
+ ╦╔═╗  ╔╗╔ ╔═╗┬  ┬  ┌─┐┌┐┌┌┬┐┌─┐
+ ║╚═╗  ║║║ ╠═╣│  │  ├┤ │││ ││├┤ 
+╚╝╚═╝  ╝╚╝o╩ ╩┴─┘┴─┘└─┘┘└┘─┴┘└─┘
+-->
+
+</head>
+<body>
+
+  <!-- Layout Formulario
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="six columns offset-by-three" style="margin-top: 3%;" id="main">
+      
+        <!-- Inicio Formulario -->
+        <form autocomplete="off" id='form' action="" method="">
+
+          <!-- Encabezado -->
+            <div align="center">
+              <img src="" alt="" width="64" height="auto">
+              <h3 style="color: #2a5de8">Ingreso</h3>
+            </div>
+
+            <!-- Bloque de Usuario -->
+            <label for="usuario-input" style="color: #888888">Nombre de Usuario</label>
+            <input class="u-full-width" type="text" id="usuario-input">
+            <p id="usuario-sugerencia"></p>
+
+            <!-- Bloque de RUT -->
+            <label for="rut-input" style="color: #888888">RUT</label>
+            <input class="u-full-width" type="text" placeholder="Rut formato sin ptos., ej: 11111111-1" id="rut-input">
+            <p id="rut-sugerencia"></p>
+
+            <!-- Bloque Password -->
+            <label for="password-input" style="color: #888888">Clave</label>
+            <input class="u-full-width" type="password" id="password-input">
+            <p id="password-sugerencia"></p>
+          
+            <!-- Bloque de Email  -->
+            <label for="email-input" style="color: #888888">Correo</label>
+            <input class="u-full-width" type="text" id="email-input">
+            <p id="email-sugerencia"></p>
+
+            <!-- Btn Enviar -->
+            <button type="submit" class="button-primary u-full-width" id="btn-enviar">Enviar</button>
+
+        </form>
+        <p style="color: #e5e82a" align="center">&copy; nav-2021</p>
+      </div>
+    </div>
+  </div>
+
+<!-- FIN DOCUMENTO
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="./js/validacion1.js"></script> //validacion1 es un archivo obfuscado de validacion.js
+</body>
+</html>
